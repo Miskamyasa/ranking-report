@@ -1,0 +1,23 @@
+@keyframes spin {
+    from {
+        content: "|";
+    }
+    25% {
+        content: "/";
+    }
+    50% {
+        content: "-";
+    }
+    75% {
+        content: "\\";
+    }
+}
+
+.spinner:before {
+    content: "|";
+    display: inline-block;
+    color: #00aaaa;
+    font-size: 18px;
+    line-height: 1em;
+    animation: spin 1s steps(5) infinite;
+}

@@ -1,0 +1,47 @@
+/*
+ The real input element is hidden and we use label element instead to show the button
+*/
+.radio input[type=radio] {
+  display: none;
+}
+
+.radio-label {
+  user-select: none;
+  margin-top: 2px;
+  padding: 0 10px;
+  font-size: 18px;
+  line-height: 1;
+  color: #000000;
+  background: #bbbbbb;
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 #000000;
+  outline: 0 none;
+}
+
+.radio-label:hover,
+.radio-label:focus {
+  color: #ffffff;
+  background: #555555;
+  cursor: pointer;
+}
+
+/*
+  I think it is better to show the outline when interactive element is focused
+  The same is for buttons and inputs
+*/
+.radio-label:focus {
+  outline: 2px solid #bbbbbb;
+}
+
+.radio-label.active,
+.radio-label:active {
+  cursor: pointer;
+  transform: translate(0, 0);
+  box-shadow: 1px 1px 0 #000000;
+}
+
+.radio-label.checked {
+  color: #fff;
+  background: #00aaaa;
+  transform: translate(0, 0);
+}

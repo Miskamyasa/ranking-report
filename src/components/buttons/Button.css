@@ -1,0 +1,35 @@
+.button {
+  cursor: pointer;
+  padding: 0 10px;
+  font-size: 18px;
+  line-height: 1;
+  color: #000000;
+  background: #bbbbbb;
+  margin: 0 4px 2px 0;
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 #000000;
+  outline: 0 none;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background: #555555;
+  cursor: pointer;
+}
+
+/*
+  I think it is neccessary to show the outline when button is focused when you can click it with keyboard
+  The same is for other inputs
+*/
+.button:focus {
+  outline: 2px solid #bbbbbb;
+}
+
+.button.active,
+.button.active,
+.button:active {
+  cursor: pointer;
+  transform: translate(0, 0);
+  box-shadow: 1px 1px 0 #000000;
+}
