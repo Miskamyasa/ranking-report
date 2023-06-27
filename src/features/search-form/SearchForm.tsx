@@ -12,7 +12,10 @@ interface FormElements extends HTMLFormControlsCollection {
   depth: HTMLInputElement
 }
 
-const depthOptions = ["1", "2", "3"]
+/*
+  Be careful with the depth options, the higher the depth the more requests it will make to GitHub.
+*/
+const depthOptions = ["1", "2"]
 
 export default function SearchForm() {
   const reducerState = useAppSelector(state => state.search)

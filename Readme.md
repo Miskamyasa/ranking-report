@@ -2,9 +2,19 @@
 
 [Demo](https://ranking.miskamyasa.me)
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation-and-development)
+- [Usage](#usage)
+- [License](#license)
+
 ## Introduction
 
-The GitHub Ranking Report is a web application that generates ranking reports for GitHub users based on their followers. The purpose of this project is to provide a user-friendly interface to retrieve and display information about a GitHub user's followers.
+The GitHub Ranking Report is a web application that generates ranking reports for GitHub users based on their followers. 
+The purpose of this project is to provide a user-friendly interface to retrieve and display information about a GitHub user's followers.
 
 ## Features
 
@@ -16,26 +26,26 @@ The GitHub Ranking Report is a web application that generates ranking reports fo
 
 ## Technologies Used
 
-- TypeScript
-- React
-- Redux
-- Redux-Saga
-- React-paginate
-- Tailwind CSS
-- Axios
-- ESLint
-- Vite
-- PNPM
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Redux-Saga](https://redux-saga.js.org/)
+- [React-paginate](https://github.com/AdeleD/react-paginate#readme)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
+- [ESLint](https://eslint.org/)
+- [Vite](https://vitejs.dev/)
+- [PNPM](https://pnpm.io/)
 
-## Installation
+## Installation and development
 
 1. Clone the repo
-```sh
+```shell
 git clone https://github.com/Miskamyasa/ranking-report.git
 ```
 
 2. Install NPM packages
-```sh
+```shell
 npm install
 ```
 
@@ -46,13 +56,22 @@ https://github.com/settings/tokens?type=beta
 
 
 ## Usage
+
 Run the project
-```sh
+```shell
 npm start
 ```
 Open in browser
 http://localhost:4173/
 
+## Contributing
+
+Contributions are always welcome!
+
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+You can use it or reproduce it in any way you want.
+
+```
