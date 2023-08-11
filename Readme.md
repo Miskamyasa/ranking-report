@@ -1,6 +1,7 @@
 # GitHub Ranking Report
 
 [Demo](https://ranking.miskamyasa.me)
+Doesn't work right now, I need to update GitHub token. Sorry!
 
 ## Table of Contents
 
